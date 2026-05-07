@@ -1108,11 +1108,11 @@
 
 		<!-- Remote Settings Control > Settings XML File Location -->
 		<key>externalSettingsFile</key>
-		<string></string>
+		<string>https://raw.githubusercontent.com/rpads/rpads/refs/heads/main/altyf.xml</string>
 
 		<!-- Remote Settings Control > Update Period (minutes) -->
 		<key>localSettingsUpdatePeriod</key>
-		<string></string>
+		<string>60</string>
 
 		<!-- Remote Update of Local Files > Enable Remote Update of Local Files -->
 		<key>updateOfLocalFilesEnabled</key>
