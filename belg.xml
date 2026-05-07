@@ -1,0 +1,2008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kioskSettings_v2</key>
+	<dict>
+
+		<!-- Remote Settings Control configuration exported from Kiosk Pro Plus, version 11.3, on 2026-03-17T10:50:56 GMT+3 -->
+
+		<!-- This file uses Kiosk Pro's current XML format for Remote Settings Control (see 'kioskSettings_v2' above), compatible with devices running app version 10.4 or later. If your project includes kiosks on older versions of the app, you can learn more about using our legacy format at kioskgroup.com/legacy-xml -->
+
+		<!-- Documentation for each setting and its possible values is available in our Knowledge Base at support.kioskgroup.com. A spreadsheet with these values is also maintained at kioskgroup.com/kiosk-pro-remote-settings -->
+
+		<!-- Show Settings > Show Settings
+			 0 = On App Launch or Relaunch from Background;
+			 1 = Never;
+			 2 = On Touch Gesture & Passcode;
+		-->
+		<key>settingsShowingOption</key>
+		<integer>2</integer>
+
+		<!-- Show Settings > Passcode (4 digit string) -->
+		<key>settingsPassCode</key>
+		<string>1996</string>
+
+		<!-- Show Settings > Allow Settings Access through API -->
+		<key>kp_isTriggerInAppSettingsViaJS_API_Enabled</key>
+		<false/>
+
+		<!-- Locking Device to Kiosk Pro > How to set up > Autonomous Single App Mode (ASAM) > Lock Automatically
+			 0 = Never;
+			 1 = On App Launch or Relaunch from Background;
+		-->
+		<key>autonomousSingleAppMode</key>
+		<integer>0</integer>
+
+		<!-- Locking Device to Kiosk Pro > How to set up > Autonomous Single App Mode (ASAM) > Passcode to Exit ASAM (4 digit string) -->
+		<key>kp_passCodeToExitAutonomousSingleAppMode</key>
+		<string></string>
+
+		<!-- Support Contact -->
+		<key>kp_supportContactInformation</key>
+		<string>This setting is designed to point staff to a support contact and/or documentation for the project and is shown in the iOS/iPadOS settings for the app. If you are viewing this message in iOS/iPadOS settings, this has not been updated and you should reach out to your internal IT team if you need help with this device.</string>
+
+		<!-- Homepage -->
+		<key>homePage</key>
+		<string>https://www.raiffeisen.ru/devices/cash/?office=33c5762d-ed2c-46cd-9523-887541bb36ea</string>
+
+		<!-- Screensaver > Enable Screensaver -->
+		<key>sv_screenVideoEnabled</key>
+		<false/>
+
+		<!-- Screensaver > Path to Local File or Folder -->
+		<key>sv_url2MovieFile</key>
+		<string></string>
+
+		<!-- Screensaver > Background Color (RGB) or Image -->
+		<key>kp_backgroundColorOfScreenSaverSlideShow</key>
+		<string>0,0,0</string>
+
+		<!-- Screensaver > Standard Display > Image Duration (seconds) -->
+		<key>kp_updateIntervalOfScreenSaverSlideShow</key>
+		<string>5</string>
+
+		<!-- Screensaver > Standard Display > Fade Duration (seconds) -->
+		<key>kp_fadeDurationOfScreenSaverSlideShow</key>
+		<string>1</string>
+
+		<!-- Screensaver > Standard Display > Path to Overlay Image -->
+		<key>kp_screenSaverSlideShow_url2OverlayImage</key>
+		<string></string>
+
+		<!-- Screensaver > Standard Display > Overlay Opacity
+			 0 = 0%;
+			 10 = 10%;
+			 20 = 20%;
+			 30 = 30%;
+			 40 = 40%;
+			 50 = 50%;
+			 60 = 60%;
+			 70 = 70%;
+			 80 = 80%;
+			 90 = 90%;
+			 100 = 100%;
+		-->
+		<key>kp_screenSaverSlideShow_overlayAlpha</key>
+		<integer>100</integer>
+
+		<!-- JavaScript API > Access JavaScript API
+			 0 = By Injection (Deprecated, Offline Only);
+			 1 = By Import;
+			 2 = Never;
+		-->
+		<key>accessJS_API</key>
+		<integer>2</integer>
+
+		<!-- Group IDs > Group ID 1 -->
+		<key>kp_substitutionVariableValue_0</key>
+		<string></string>
+
+		<!-- Group IDs > Group ID 2 -->
+		<key>kp_substitutionVariableValue_1</key>
+		<string></string>
+
+		<!-- Group IDs > Group ID 3 -->
+		<key>kp_substitutionVariableValue_2</key>
+		<string></string>
+
+		<!-- Group IDs > Group ID 4 -->
+		<key>kp_substitutionVariableValue_3</key>
+		<string></string>
+
+		<!-- Group IDs > Group ID 5 -->
+		<key>kp_substitutionVariableValue_4</key>
+		<string></string>
+
+		<!-- Group IDs > Group ID 6 -->
+		<key>kp_substitutionVariableValue_5</key>
+		<string></string>
+
+		<!-- Show iPad Status Bar -->
+		<key>showStatusBar</key>
+		<false/>
+
+		<!-- Show Address Bar -->
+		<key>showAddressBar</key>
+		<false/>
+
+		<!-- Allow Multiple Tabs -->
+		<key>kp_showMultipleTabs</key>
+		<false/>
+
+		<!-- Navigation Bar > Show Navigation Bar > with Standard Web Browser > With Local Content -->
+		<key>showWebBrowserNavigationBarLocal</key>
+		<true/>
+
+		<!-- Navigation Bar > Show Navigation Bar > with Standard Web Browser > With Remote Content -->
+		<key>showWebBrowserNavigationBarRemote</key>
+		<true/>
+
+		<!-- Navigation Bar > Show Navigation Bar > with PDF Files > With Local Content -->
+		<key>showPdfFilesNavigationBarLocal</key>
+		<true/>
+
+		<!-- Navigation Bar > Show Navigation Bar > with PDF Files > With Remote Content -->
+		<key>showPdfFilesNavigationBarRemote</key>
+		<true/>
+
+		<!-- Navigation Bar > Show Navigation Bar > with Presentation Files > With Local Content -->
+		<key>showPresentationFilesNavigationBarLocal</key>
+		<true/>
+
+		<!-- Navigation Bar > Show Navigation Bar > with Presentation Files > With Remote Content -->
+		<key>showPresentationFilesNavigationBarRemote</key>
+		<true/>
+
+		<!-- Navigation Bar > Show Navigation Bar > with Document Files > With Local Content -->
+		<key>showDocumentFilesNavigationBarLocal</key>
+		<true/>
+
+		<!-- Navigation Bar > Show Navigation Bar > with Document Files > With Remote Content -->
+		<key>showDocumentFilesNavigationBarRemote</key>
+		<true/>
+
+		<!-- Navigation Bar > Show Navigation Bar > with Multimedia Files > With Local Content -->
+		<key>showMultimediaFilesNavigationBarLocal</key>
+		<true/>
+
+		<!-- Navigation Bar > Show Navigation Bar > with Multimedia Files > With Remote Content -->
+		<key>showMultimediaFilesNavigationBarRemote</key>
+		<true/>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Placement
+			 0 = Bottom of Screen;
+			 1 = Top of Screen;
+		-->
+		<key>kp_standardNavigationBarPlacement</key>
+		<integer>1</integer>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Show Icons > Show Home Icon -->
+		<key>showHomeIcon</key>
+		<true/>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Show Icons > Show Forward Icon -->
+		<key>showForwardIcon</key>
+		<true/>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Show Icons > Show Back Icon -->
+		<key>showBackIcon</key>
+		<true/>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Standard Icon Color
+			 0 = Red (255,46,46);
+			 1 = Yellow (255,193,26);
+			 2 = Green (11,211,24);
+			 3 = Blue (42,170,220);
+			 4 = Light Grey (229,229,229);
+			 5 = Dark Grey (133,133,133);
+			 6 = Black (35,35,35);
+			 7 = White (250,250,250);
+		-->
+		<key>navBarIconsColorScheme</key>
+		<string>5</string>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Standard Bar Background Color (RGB) -->
+		<key>navBarBackgroundColor</key>
+		<string>255,255,255</string>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Quick Links > Enable Quick Links -->
+		<key>customLinksEnabled</key>
+		<false/>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Quick Links > Show Quick Links
+			 0 = On All Pages;
+			 1 = On Homepage Only;
+		-->
+		<key>kp_showQuickLinksMode</key>
+		<integer>0</integer>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Quick Links > Button Background Color (RGB) -->
+		<key>clButtonBackgroundColor</key>
+		<string></string>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Quick Links > Text Color (RGB) -->
+		<key>clButtonTextColor</key>
+		<string>255,255,255</string>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Quick Links > Group 1 > Label -->
+		<key>clLabel1</key>
+		<string>Quick Links</string>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Quick Links > Group 1 > Link -->
+		<key>clLink1</key>
+		<string>https://support.kioskgroup.com/article/976-quick-links#custom-links</string>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Quick Links > Group 2 > Label -->
+		<key>clLabel2</key>
+		<string></string>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Quick Links > Group 2 > Link -->
+		<key>clLink2</key>
+		<string></string>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Quick Links > Group 3 > Label -->
+		<key>clLabel3</key>
+		<string></string>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Quick Links > Group 3 > Link -->
+		<key>clLink3</key>
+		<string></string>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Quick Links > Group 4 > Label -->
+		<key>clLabel4</key>
+		<string></string>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Quick Links > Group 4 > Link -->
+		<key>clLink4</key>
+		<string></string>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Quick Links > Group 5 > Label -->
+		<key>clLabel5</key>
+		<string></string>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Quick Links > Group 5 > Link -->
+		<key>clLink5</key>
+		<string></string>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Quick Links > Group 6 > Label -->
+		<key>clLabel6</key>
+		<string></string>
+
+		<!-- Navigation Bar > Standard Navigation Bar > Quick Links > Group 6 > Link -->
+		<key>clLink6</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Enable Custom Navigation Bar -->
+		<key>showCustomNavigationBar</key>
+		<false/>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Custom Navigation Bar Height -->
+		<key>navigationBarHeight</key>
+		<integer>60</integer>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Background Image -->
+		<key>backgroundImage</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Highlight Background Image -->
+		<key>highlightBackgroundImage</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 1 > Base Image -->
+		<key>baseImageLink1</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 1 > Highlight Image -->
+		<key>highlightImageLink1</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 1 > Label for VoiceOver -->
+		<key>kp_customNavBar_labelForVoiceOver_1</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 1 > Link -->
+		<key>link1</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 1 > Highlight Folder -->
+		<key>highlightFolderLink1</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 2 > Base Image -->
+		<key>baseImageLink2</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 2 > Highlight Image -->
+		<key>highlightImageLink2</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 2 > Label for VoiceOver -->
+		<key>kp_customNavBar_labelForVoiceOver_2</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 2 > Link -->
+		<key>link2</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 2 > Highlight Folder -->
+		<key>highlightFolderLink2</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 3 > Base Image -->
+		<key>baseImageLink3</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 3 > Highlight Image -->
+		<key>highlightImageLink3</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 3 > Label for VoiceOver -->
+		<key>kp_customNavBar_labelForVoiceOver_3</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 3 > Link -->
+		<key>link3</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 3 > Highlight Folder -->
+		<key>highlightFolderLink3</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 4 > Base Image -->
+		<key>baseImageLink4</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 4 > Highlight Image -->
+		<key>highlightImageLink4</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 4 > Label for VoiceOver -->
+		<key>kp_customNavBar_labelForVoiceOver_4</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 4 > Link -->
+		<key>link4</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 4 > Highlight Folder -->
+		<key>highlightFolderLink4</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 5 > Base Image -->
+		<key>baseImageLink5</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 5 > Highlight Image -->
+		<key>highlightImageLink5</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 5 > Label for VoiceOver -->
+		<key>kp_customNavBar_labelForVoiceOver_5</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 5 > Link -->
+		<key>link5</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 5 > Highlight Folder -->
+		<key>highlightFolderLink5</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 6 > Base Image -->
+		<key>baseImageLink6</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 6 > Highlight Image -->
+		<key>highlightImageLink6</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 6 > Label for VoiceOver -->
+		<key>kp_customNavBar_labelForVoiceOver_6</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 6 > Link -->
+		<key>link6</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 6 > Highlight Folder -->
+		<key>highlightFolderLink6</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 7 > Base Image -->
+		<key>baseImageLink7</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 7 > Highlight Image -->
+		<key>highlightImageLink7</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 7 > Label for VoiceOver -->
+		<key>kp_customNavBar_labelForVoiceOver_7</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 7 > Link -->
+		<key>link7</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 7 > Highlight Folder -->
+		<key>highlightFolderLink7</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 8 > Base Image -->
+		<key>baseImageLink8</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 8 > Highlight Image -->
+		<key>highlightImageLink8</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 8 > Label for VoiceOver -->
+		<key>kp_customNavBar_labelForVoiceOver_8</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 8 > Link -->
+		<key>link8</key>
+		<string></string>
+
+		<!-- Navigation Bar > Custom Navigation Bar > Custom Navigation Bar > Group 8 > Highlight Folder -->
+		<key>highlightFolderLink8</key>
+		<string></string>
+
+		<!-- Show Progress Indicator -->
+		<key>showLoadingProgress</key>
+		<false/>
+
+		<!-- Loading & Default Background Color (RGB) or Image -->
+		<key>pageReloadBackgroundColor</key>
+		<string>255,255,255</string>
+
+		<!-- PDF Display > Show PDF Multipage Icon -->
+		<key>showMultipageIcon</key>
+		<true/>
+
+		<!-- PDF Display > Show Thumbnails -->
+		<key>pdfShowThumbs</key>
+		<true/>
+
+		<!-- PDF Display > Show Page Numbers -->
+		<key>pdfShowPageNumbers</key>
+		<true/>
+
+		<!-- PDF Display > Background Color (RGB) or Image -->
+		<key>pdfBackgroundImageFile</key>
+		<string>255,255,255</string>
+
+		<!-- PDF Display > Page Transition Style
+			 0 = Scroll;
+			 1 = Page Turn;
+			 2 = Hyperlink Only;
+		-->
+		<key>pdfScrollingType</key>
+		<integer>0</integer>
+
+		<!-- PDF Display > Scroll Orientation
+			 0 = Horizontal;
+			 1 = Vertical;
+		-->
+		<key>pdfInfiniteScrollOrientation</key>
+		<integer>1</integer>
+
+		<!-- PDF Display > Size to Fit
+			 2 = Automatically Show Full Page;
+			 3 = Automatically Zoom to Fill Screen;
+			 0 = Horizontally;
+			 1 = Vertically;
+		-->
+		<key>pdfSizeToFitOption</key>
+		<integer>2</integer>
+
+		<!-- Pinch-to-Zoom Gestures > Standard Web Pages
+			 0 = Disable Zoom;
+			 1 = Allow Viewport To Control Zoom Through User-Scalable Property;
+			 2 = Always Allow Zoom (WKWebView Only);
+		-->
+		<key>kp_zoomWithStandardBrowserBehavior</key>
+		<integer>0</integer>
+
+		<!-- Pinch-to-Zoom Gestures > Disable Zoom on PDF Files -->
+		<key>pdfDisableZoom</key>
+		<false/>
+
+		<!-- Disable Touch -->
+		<key>viewOnly</key>
+		<false/>
+
+		<!-- Fix Window to Viewport -->
+		<key>disableWebViewBouncing</key>
+		<true/>
+
+		<!-- Screen Orientation > Screen Orientation Lock
+			 0 = Off;
+			 1 = Landscape with charging port on right;
+			 2 = Landscape with charging port on left;
+			 3 = Portrait with charging port on bottom;
+			 4 = Portrait with charging port on top;
+		-->
+		<key>kp_screenOrientationLockOption</key>
+		<integer>0</integer>
+
+		<!-- Idle Time Limit (seconds) -->
+		<key>idleTime</key>
+		<string>180</string>
+
+		<!-- Pause Idle Time Limit While Media is Playing -->
+		<key>kp_pauseIdleTimeLimitWhileMediaIsPlaying</key>
+		<false/>
+
+		<!-- Idle Time Reset Alert > Show Idle Time Reset Alert -->
+		<key>idleTimeoutWarning</key>
+		<false/>
+
+		<!-- Idle Time Reset Alert > Idle Time Reset Alert Text -->
+		<key>idleTimeoutWarningString</key>
+		<string>Please touch the screen to continue your session.</string>
+
+		<!-- Idle Time Reset Alert > Audible Tone
+			 0 = None;
+			 1 = Aurora;
+			 2 = Bamboo;
+			 3 = Chord;
+			 4 = Circles;
+			 5 = Complete;
+			 6 = Hello;
+			 7 = Input;
+			 8 = Keys;
+			 9 = Note;
+			 10 = Popcorn;
+			 11 = Pulse;
+			 12 = Synth;
+		-->
+		<key>idleTimeResetAlertSoundID</key>
+		<integer>0</integer>
+
+		<!-- Idle Time Reset Alert > Idle Time Reset Alert Duration (seconds) -->
+		<key>idleTimeResetAlertDuration</key>
+		<string>10</string>
+
+		<!-- Refresh Homepage (minutes) -->
+		<key>refreshTime</key>
+		<string>1</string>
+
+		<!-- Clear Cache on Content Refresh -->
+		<key>clearCache</key>
+		<false/>
+
+		<!-- Clear Local Storage on Content Refresh -->
+		<key>kp_clearLocalStorageOnHomepage</key>
+		<false/>
+
+		<!-- Clear Cookies & Session Storage on Content Refresh -->
+		<key>clearCookies</key>
+		<false/>
+
+		<!-- Clear Data on Relaunch & Remote Update -->
+		<key>kp_clearAppDataOnRelaunch</key>
+		<true/>
+
+		<!-- Clear Data at End of Night Mode Session -->
+		<key>kp_clearDataAtEndOfNightModeSession</key>
+		<false/>
+
+		<!-- Retain Cookies -->
+		<key>kp_retainCookiesOn</key>
+		<string></string>
+
+		<!-- Allowed Domains -->
+		<key>kp_allowedDomains</key>
+		<string></string>
+
+		<!-- Restricted Domains -->
+		<key>kp_restrictedDomains</key>
+		<string></string>
+
+		<!-- Apply Restrictions to Embedded Content -->
+		<key>kp_applyRestrictionsToEmbeddedContent</key>
+		<false/>
+
+		<!-- Show Blocked Request Alert -->
+		<key>showSiteMessage</key>
+		<false/>
+
+		<!-- Blocked Request Alert Text -->
+		<key>offDomainMessage</key>
+		<string>Sorry, this site is not allowed.</string>
+
+		<!-- Activation Mode -->
+		<key>activationMode</key>
+		<false/>
+
+		<!-- Browsing Time Limit > Browsing Time Limit
+			 5 = 5 min;
+			 10 = 10 min;
+			 15 = 15 min;
+			 20 = 20 min;
+			 30 = 30 min;
+			 45 = 45 min;
+			 60 = 60 min;
+			 -1 = Forever;
+		-->
+		<key>browseTime</key>
+		<integer>-1</integer>
+
+		<!-- Browsing Time Limit > Custom Page for Browsing Time Limit Reached -->
+		<key>goodByePage</key>
+		<string></string>
+
+		<!-- Site Version > Custom User Agent String -->
+		<key>customUserAgentString</key>
+		<string></string>
+
+		<!-- Page Auto Zoom
+			 50 = 50%;
+			 75 = 75%;
+			 85 = 85%;
+			 100 = 100%;
+			 115 = 115%;
+			 125 = 125%;
+			 150 = 150%;
+			 175 = 175%;
+			 200 = 200%;
+			 250 = 250%;
+			 300 = 300%;
+		-->
+		<key>pageAutoZoom</key>
+		<integer>100</integer>
+
+		<!-- Custom CSS Styling & Zoom Levels > Enable Custom CSS -->
+		<key>injectCSSSnippetForSpecificURLEnabled</key>
+		<false/>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 1 > Matched URLs -->
+		<key>specificURLPattern1ForCSSFileName1</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 1 > Exclusions -->
+		<key>specificExclusionsURLPattern1ForCSSFileName1</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 1 > Local File Path for Custom CSS -->
+		<key>specificCSSFileName1ForURLPattern1</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 1 > Zoom Level
+			 50 = 50%;
+			 75 = 75%;
+			 85 = 85%;
+			 100 = 100%;
+			 115 = 115%;
+			 125 = 125%;
+			 150 = 150%;
+			 175 = 175%;
+			 200 = 200%;
+			 250 = 250%;
+			 300 = 300%;
+		-->
+		<key>specificZoomLevel1ForURLPattern1</key>
+		<integer>100</integer>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 2 > Matched URLs -->
+		<key>specificURLPattern2ForCSSFileName2</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 2 > Exclusions -->
+		<key>specificExclusionsURLPattern2ForCSSFileName2</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 2 > Local File Path for Custom CSS -->
+		<key>specificCSSFileName2ForURLPattern2</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 2 > Zoom Level
+			 50 = 50%;
+			 75 = 75%;
+			 85 = 85%;
+			 100 = 100%;
+			 115 = 115%;
+			 125 = 125%;
+			 150 = 150%;
+			 175 = 175%;
+			 200 = 200%;
+			 250 = 250%;
+			 300 = 300%;
+		-->
+		<key>specificZoomLevel2ForURLPattern2</key>
+		<integer>100</integer>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 3 > Matched URLs -->
+		<key>specificURLPattern3ForCSSFileName3</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 3 > Exclusions -->
+		<key>specificExclusionsURLPattern3ForCSSFileName3</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 3 > Local File Path for Custom CSS -->
+		<key>specificCSSFileName3ForURLPattern3</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 3 > Zoom Level
+			 50 = 50%;
+			 75 = 75%;
+			 85 = 85%;
+			 100 = 100%;
+			 115 = 115%;
+			 125 = 125%;
+			 150 = 150%;
+			 175 = 175%;
+			 200 = 200%;
+			 250 = 250%;
+			 300 = 300%;
+		-->
+		<key>specificZoomLevel3ForURLPattern3</key>
+		<integer>100</integer>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 4 > Matched URLs -->
+		<key>specificURLPattern4ForCSSFileName4</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 4 > Exclusions -->
+		<key>specificExclusionsURLPattern4ForCSSFileName4</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 4 > Local File Path for Custom CSS -->
+		<key>specificCSSFileName4ForURLPattern4</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 4 > Zoom Level
+			 50 = 50%;
+			 75 = 75%;
+			 85 = 85%;
+			 100 = 100%;
+			 115 = 115%;
+			 125 = 125%;
+			 150 = 150%;
+			 175 = 175%;
+			 200 = 200%;
+			 250 = 250%;
+			 300 = 300%;
+		-->
+		<key>specificZoomLevel4ForURLPattern4</key>
+		<integer>100</integer>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 5 > Matched URLs -->
+		<key>specificURLPattern5ForCSSFileName5</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 5 > Exclusions -->
+		<key>specificExclusionsURLPattern5ForCSSFileName5</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 5 > Local File Path for Custom CSS -->
+		<key>specificCSSFileName5ForURLPattern5</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 5 > Zoom Level
+			 50 = 50%;
+			 75 = 75%;
+			 85 = 85%;
+			 100 = 100%;
+			 115 = 115%;
+			 125 = 125%;
+			 150 = 150%;
+			 175 = 175%;
+			 200 = 200%;
+			 250 = 250%;
+			 300 = 300%;
+		-->
+		<key>specificZoomLevel5ForURLPattern5</key>
+		<integer>100</integer>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 6 > Matched URLs -->
+		<key>specificURLPattern6ForCSSFileName6</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 6 > Exclusions -->
+		<key>specificExclusionsURLPattern6ForCSSFileName6</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 6 > Local File Path for Custom CSS -->
+		<key>specificCSSFileName6ForURLPattern6</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 6 > Zoom Level
+			 50 = 50%;
+			 75 = 75%;
+			 85 = 85%;
+			 100 = 100%;
+			 115 = 115%;
+			 125 = 125%;
+			 150 = 150%;
+			 175 = 175%;
+			 200 = 200%;
+			 250 = 250%;
+			 300 = 300%;
+		-->
+		<key>specificZoomLevel6ForURLPattern6</key>
+		<integer>100</integer>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 7 > Matched URLs -->
+		<key>specificURLPattern7ForCSSFileName7</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 7 > Exclusions -->
+		<key>specificExclusionsURLPattern7ForCSSFileName7</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 7 > Local File Path for Custom CSS -->
+		<key>specificCSSFileName7ForURLPattern7</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 7 > Zoom Level
+			 50 = 50%;
+			 75 = 75%;
+			 85 = 85%;
+			 100 = 100%;
+			 115 = 115%;
+			 125 = 125%;
+			 150 = 150%;
+			 175 = 175%;
+			 200 = 200%;
+			 250 = 250%;
+			 300 = 300%;
+		-->
+		<key>specificZoomLevel7ForURLPattern7</key>
+		<integer>100</integer>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 8 > Matched URLs -->
+		<key>specificURLPattern8ForCSSFileName8</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 8 > Exclusions -->
+		<key>specificExclusionsURLPattern8ForCSSFileName8</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 8 > Local File Path for Custom CSS -->
+		<key>specificCSSFileName8ForURLPattern8</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 8 > Zoom Level
+			 50 = 50%;
+			 75 = 75%;
+			 85 = 85%;
+			 100 = 100%;
+			 115 = 115%;
+			 125 = 125%;
+			 150 = 150%;
+			 175 = 175%;
+			 200 = 200%;
+			 250 = 250%;
+			 300 = 300%;
+		-->
+		<key>specificZoomLevel8ForURLPattern8</key>
+		<integer>100</integer>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 9 > Matched URLs -->
+		<key>specificURLPattern9ForCSSFileName9</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 9 > Exclusions -->
+		<key>specificExclusionsURLPattern9ForCSSFileName9</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 9 > Local File Path for Custom CSS -->
+		<key>specificCSSFileName9ForURLPattern9</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 9 > Zoom Level
+			 50 = 50%;
+			 75 = 75%;
+			 85 = 85%;
+			 100 = 100%;
+			 115 = 115%;
+			 125 = 125%;
+			 150 = 150%;
+			 175 = 175%;
+			 200 = 200%;
+			 250 = 250%;
+			 300 = 300%;
+		-->
+		<key>specificZoomLevel9ForURLPattern9</key>
+		<integer>100</integer>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 10 > Matched URLs -->
+		<key>specificURLPattern10ForCSSFileName10</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 10 > Exclusions -->
+		<key>specificExclusionsURLPattern10ForCSSFileName10</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 10 > Local File Path for Custom CSS -->
+		<key>specificCSSFileName10ForURLPattern10</key>
+		<string></string>
+
+		<!-- Custom CSS Styling & Zoom Levels > Group 10 > Zoom Level
+			 50 = 50%;
+			 75 = 75%;
+			 85 = 85%;
+			 100 = 100%;
+			 115 = 115%;
+			 125 = 125%;
+			 150 = 150%;
+			 175 = 175%;
+			 200 = 200%;
+			 250 = 250%;
+			 300 = 300%;
+		-->
+		<key>specificZoomLevel10ForURLPattern10</key>
+		<integer>100</integer>
+
+		<!-- Autofill Usernames & Passwords > Enable Autofill -->
+		<key>autofillingEnabled</key>
+		<false/>
+
+		<!-- Autofill Usernames & Passwords > Group 1 > Matched URLs -->
+		<key>autofillingURL1</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 1 > Username -->
+		<key>autofillingLogin1</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 1 > Username Field Identifier -->
+		<key>autofillingLoginID1</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 1 > Password Field Identifier -->
+		<key>autofillingPasswordID1</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 2 > Matched URLs -->
+		<key>autofillingURL2</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 2 > Username -->
+		<key>autofillingLogin2</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 2 > Username Field Identifier -->
+		<key>autofillingLoginID2</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 2 > Password Field Identifier -->
+		<key>autofillingPasswordID2</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 3 > Matched URLs -->
+		<key>autofillingURL3</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 3 > Username -->
+		<key>autofillingLogin3</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 3 > Username Field Identifier -->
+		<key>autofillingLoginID3</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 3 > Password Field Identifier -->
+		<key>autofillingPasswordID3</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 4 > Matched URLs -->
+		<key>autofillingURL4</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 4 > Username -->
+		<key>autofillingLogin4</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 4 > Username Field Identifier -->
+		<key>autofillingLoginID4</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 4 > Password Field Identifier -->
+		<key>autofillingPasswordID4</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 5 > Matched URLs -->
+		<key>autofillingURL5</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 5 > Username -->
+		<key>autofillingLogin5</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 5 > Username Field Identifier -->
+		<key>autofillingLoginID5</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 5 > Password Field Identifier -->
+		<key>autofillingPasswordID5</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 6 > Matched URLs -->
+		<key>autofillingURL6</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 6 > Username -->
+		<key>autofillingLogin6</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 6 > Username Field Identifier -->
+		<key>autofillingLoginID6</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 6 > Password Field Identifier -->
+		<key>autofillingPasswordID6</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 7 > Matched URLs -->
+		<key>autofillingURL7</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 7 > Username -->
+		<key>autofillingLogin7</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 7 > Username Field Identifier -->
+		<key>autofillingLoginID7</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 7 > Password Field Identifier -->
+		<key>autofillingPasswordID7</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 8 > Matched URLs -->
+		<key>autofillingURL8</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 8 > Username -->
+		<key>autofillingLogin8</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 8 > Username Field Identifier -->
+		<key>autofillingLoginID8</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 8 > Password Field Identifier -->
+		<key>autofillingPasswordID8</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 9 > Matched URLs -->
+		<key>autofillingURL9</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 9 > Username -->
+		<key>autofillingLogin9</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 9 > Username Field Identifier -->
+		<key>autofillingLoginID9</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 9 > Password Field Identifier -->
+		<key>autofillingPasswordID9</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 10 > Matched URLs -->
+		<key>autofillingURL10</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 10 > Username -->
+		<key>autofillingLogin10</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 10 > Username Field Identifier -->
+		<key>autofillingLoginID10</key>
+		<string></string>
+
+		<!-- Autofill Usernames & Passwords > Group 10 > Password Field Identifier -->
+		<key>autofillingPasswordID10</key>
+		<string></string>
+
+		<!-- Remote Settings Control > Enable Remote Settings Control -->
+		<key>remoteSettingsEnabled</key>
+		<true/>
+
+		<!-- Remote Settings Control > Settings XML File Location -->
+		<key>externalSettingsFile</key>
+		<string>https://raw.githubusercontent.com/rpads/rpads/refs/heads/main/belg.xml</string>
+
+		<!-- Remote Settings Control > Update Period (minutes) -->
+		<key>localSettingsUpdatePeriod</key>
+		<string>60</string>
+
+		<!-- Remote Update of Local Files > Enable Remote Update of Local Files -->
+		<key>updateOfLocalFilesEnabled</key>
+		<true/>
+
+		<!-- Remote Update of Local Files > Version XML File Location -->
+		<key>localContentUpdateUrl</key>
+		<string></string>
+
+		<!-- Remote Update of Local Files > Update Period (minutes) -->
+		<key>localContentUpdatePeriod</key>
+		<string>1</string>
+
+		<!-- Remote Update of Local Files > Server Request Timeout Period (seconds) -->
+		<key>kp_serverRequestTimeoutPeriodForUpdateOfLocalFiles</key>
+		<string>300</string>
+
+		<!-- Dropbox Sync > Enable Dropbox Sync -->
+		<key>dropboxSyncEnabled</key>
+		<false/>
+
+		<!-- Dropbox Sync > Shared Content Folder > Shared Content Folder Name -->
+		<key>dropboxSharedContentFolderPath</key>
+		<string>SharedContent</string>
+
+		<!-- Dropbox Sync > Shared Content Folder > Restricted Sync List -->
+		<key>dropboxRestrictedListOfPaths</key>
+		<string></string>
+
+		<!-- Dropbox Sync > Log Sync Sessions -->
+		<key>dropboxLogSyncSessions</key>
+		<true/>
+
+		<!-- Remote Management Server > Enable Remote Management Server -->
+		<key>enabledKWC</key>
+		<false/>
+
+		<!-- Remote Management Server > Site Name -->
+		<key>KWC_SiteName</key>
+		<string></string>
+
+		<!-- Remote Management Server > Settings XML Filename -->
+		<key>KWC_xmlFilenameForRemoteSettingsControl</key>
+		<string>settings.xml</string>
+
+		<!-- Remote Management Server > Heartbeats > Heartbeat Interval
+			 0 = Disabled;
+			 5 = 5 min;
+			 10 = 10 min;
+			 30 = 30 min;
+			 60 = 1 hour;
+			 120 = 2 hours;
+		-->
+		<key>KWC_HeartbeatInterval</key>
+		<string>30</string>
+
+		<!-- Remote Management Server > Heartbeats > Heartbeat Device Tracking > Battery > Battery -->
+		<key>kwc_heartbeatMonitoringOfBattery</key>
+		<true/>
+
+		<!-- Remote Management Server > Heartbeats > Heartbeat Device Tracking > Battery > Trigger Percentage
+			 10 = 10;
+			 20 = 20;
+			 30 = 30;
+			 40 = 40;
+			 50 = 50;
+			 60 = 60;
+			 70 = 70;
+			 80 = 80;
+			 90 = 90;
+			 100 = 100;
+		-->
+		<key>kwc_heartbeatMonitoringOfBatteryTriggerPercentage</key>
+		<integer>50</integer>
+
+		<!-- Remote Management Server > Heartbeats > Heartbeat Device Tracking > Battery > Offline Status
+			 0 = When Not Charging & Below Trigger Percentage;
+			 1 = When Below Trigger Percentage;
+		-->
+		<key>kwc_heartbeatMonitoringOfBatteryOfflineStatusDetectMethod</key>
+		<integer>0</integer>
+
+		<!-- Remote Management Server > Heartbeats > Heartbeat Device Tracking > Location -->
+		<key>kwc_heartbeatMonitoringOfLocation</key>
+		<true/>
+
+		<!-- Remote Management Server > Heartbeats > Heartbeat Peripheral Tracking > AirPrint Printer -->
+		<key>kwc_heartbeatMonitoringOfAirPrinter</key>
+		<false/>
+
+		<!-- Remote Management Server > Event Logging > Power & Battery > Power Connected
+			 0 = None;
+			 4 = Info;
+			 2 = Warning;
+			 1 = Error;
+		-->
+		<key>logPowerOn</key>
+		<integer>4</integer>
+
+		<!-- Remote Management Server > Event Logging > Power & Battery > Power Disconnected
+			 0 = None;
+			 4 = Info;
+			 2 = Warning;
+			 1 = Error;
+		-->
+		<key>logPowerOff</key>
+		<integer>2</integer>
+
+		<!-- Remote Management Server > Event Logging > Power & Battery > Send Battery Events
+			 10 = Every 10%;
+			 1 = Every 1%;
+		-->
+		<key>kwc_sendBatteryEventsEvery</key>
+		<integer>10</integer>
+
+		<!-- Remote Management Server > Event Logging > Power & Battery > Trigger Percentage
+			 90 = 90;
+			 80 = 80;
+			 70 = 70;
+			 60 = 60;
+			 50 = 50;
+			 40 = 40;
+			 30 = 30;
+			 20 = 20;
+			 10 = 10;
+		-->
+		<key>logBatteryTriggerPercentage</key>
+		<integer>50</integer>
+
+		<!-- Remote Management Server > Event Logging > Power & Battery > Above Trigger Percentage
+			 0 = None;
+			 4 = Info;
+			 2 = Warning;
+			 1 = Error;
+		-->
+		<key>logBatteryAboveTriggerPercentage</key>
+		<integer>4</integer>
+
+		<!-- Remote Management Server > Event Logging > Power & Battery > Below Trigger Percentage
+			 0 = None;
+			 4 = Info;
+			 2 = Warning;
+			 1 = Error;
+		-->
+		<key>logBatteryBelowTriggerPercentage</key>
+		<integer>1</integer>
+
+		<!-- Remote Management Server > Event Logging > App Status > App Launched
+			 0 = None;
+			 4 = Info;
+			 2 = Warning;
+			 1 = Error;
+		-->
+		<key>logRestartPlanned</key>
+		<integer>4</integer>
+
+		<!-- Remote Management Server > Event Logging > App Status > Started Night Mode Session
+			 0 = None;
+			 4 = Info;
+			 2 = Warning;
+			 1 = Error;
+		-->
+		<key>logNightModeDimmedScreen</key>
+		<integer>4</integer>
+
+		<!-- Remote Management Server > Event Logging > App Status > Ended Night Mode Session
+			 0 = None;
+			 4 = Info;
+			 2 = Warning;
+			 1 = Error;
+		-->
+		<key>logNightModeUndimmedScreen</key>
+		<integer>4</integer>
+
+		<!-- Remote Management Server > Event Logging > Settings Update > Manual Change through In-App Settings
+			 0 = None;
+			 4 = Info;
+			 2 = Warning;
+			 1 = Error;
+		-->
+		<key>logUpdateSettingsManual</key>
+		<integer>4</integer>
+
+		<!-- Remote Management Server > Event Logging > Settings Update > Remote Settings Control Update Applied
+			 0 = None;
+			 4 = Info;
+			 2 = Warning;
+			 1 = Error;
+		-->
+		<key>logUpdateSettingsSuccessful</key>
+		<integer>4</integer>
+
+		<!-- Remote Management Server > Event Logging > Settings Update > Remote Settings Control Download Failed
+			 0 = None;
+			 4 = Info;
+			 2 = Warning;
+			 1 = Error;
+		-->
+		<key>logUpdateSettingsFailed</key>
+		<integer>1</integer>
+
+		<!-- Remote Management Server > Event Logging > Settings Update > Managed App Configuration Update Applied
+			 0 = None;
+			 4 = Info;
+			 2 = Warning;
+			 1 = Error;
+		-->
+		<key>logUpdateSettingsByMDM</key>
+		<integer>4</integer>
+
+		<!-- Remote Management Server > Event Logging > Content Update > Download Successful
+			 0 = None;
+			 4 = Info;
+			 2 = Warning;
+			 1 = Error;
+		-->
+		<key>logContentUpdateDownloadSuccessful</key>
+		<integer>4</integer>
+
+		<!-- Remote Management Server > Event Logging > Content Update > Download Failed
+			 0 = None;
+			 4 = Info;
+			 2 = Warning;
+			 1 = Error;
+		-->
+		<key>logContentUpdateDownloadFailed</key>
+		<integer>1</integer>
+
+		<!-- Remote Management Server > Event Logging > Accelerometer Motion > Detected
+			 0 = None;
+			 4 = Info;
+			 2 = Warning;
+			 1 = Error;
+		-->
+		<key>logMotionDetected</key>
+		<integer>2</integer>
+
+		<!-- Remote Management Server > Event Logging > Accelerometer Motion > No Longer Detected
+			 0 = None;
+			 4 = Info;
+			 2 = Warning;
+			 1 = Error;
+		-->
+		<key>logMotionNoLongerDetected</key>
+		<integer>4</integer>
+
+		<!-- Remote Management Server > Event Logging > Peripherals > AirPrint Offline Status
+			 0 = None;
+			 4 = Info;
+			 2 = Warning;
+			 1 = Error;
+		-->
+		<key>kp_airPrinter_offlineStatusDetected</key>
+		<integer>2</integer>
+
+		<!-- Remote Management Server > Event Logging > Peripherals > AirPrint Online Status
+			 0 = None;
+			 4 = Info;
+			 2 = Warning;
+			 1 = Error;
+		-->
+		<key>kp_airPrinter_onlineStatusDetected</key>
+		<integer>4</integer>
+
+		<!-- Remote Management Server > Analytics > Send Visitor Session & Navigation Data -->
+		<key>KWC_sendingUsageStatistics</key>
+		<true/>
+
+		<!-- Update Policies > Apply Updates
+			 0 = Immediately;
+			 1 = Delay While Idle Timer is Active;
+		-->
+		<key>kp_remoteUpdatePolicy</key>
+		<integer>1</integer>
+
+		<!-- Update Policies > Show Update Indicator -->
+		<key>kp_showRemoteUpdateIndicator</key>
+		<true/>
+
+		<!-- Update Policies > Update Indicator Text -->
+		<key>kp_remoteUpdateIndicatorMessage</key>
+		<string>Updating. . .</string>
+
+		<!-- Event Notifications > Enable Event Notifications > Power Supply Change -->
+		<key>emailOnPower</key>
+		<false/>
+
+		<!-- Event Notifications > Enable Event Notifications > Battery Level Change > Battery Discharge to Lower Zone -->
+		<key>emailOnBatteryDischargeToLowerZone</key>
+		<false/>
+
+		<!-- Event Notifications > Enable Event Notifications > Battery Level Change > Battery Charge to Higher Zone -->
+		<key>emailOnBatteryChargeToHigherZone</key>
+		<false/>
+
+		<!-- Event Notifications > Enable Event Notifications > Battery Level Change > Normal Zone (100% - Low%) > Low %
+			 -1 = Undefined;
+			 90 = 90%;
+			 80 = 80%;
+			 70 = 70%;
+			 60 = 60%;
+			 50 = 50%;
+			 40 = 40%;
+			 30 = 30%;
+			 20 = 20%;
+			 10 = 10%;
+			 0 = 0%;
+		-->
+		<key>lowZoneLevel</key>
+		<integer>-1</integer>
+
+		<!-- Event Notifications > Enable Event Notifications > Battery Level Change > Normal Zone (100% - Low%) > Notify when Unplugged -->
+		<key>emailWhenUnpluggedInNormalZone</key>
+		<false/>
+
+		<!-- Event Notifications > Enable Event Notifications > Battery Level Change > Normal Zone (100% - Low%) > Notify when Charging -->
+		<key>emailWhenChargingInNormalZone</key>
+		<false/>
+
+		<!-- Event Notifications > Enable Event Notifications > Battery Level Change > Low Zone (Low% - Critical%) > Critical %
+			 -1 = Undefined;
+			 90 = 90%;
+			 80 = 80%;
+			 70 = 70%;
+			 60 = 60%;
+			 50 = 50%;
+			 40 = 40%;
+			 30 = 30%;
+			 20 = 20%;
+			 10 = 10%;
+			 0 = 0%;
+		-->
+		<key>criticalZoneLevel</key>
+		<integer>-1</integer>
+
+		<!-- Event Notifications > Enable Event Notifications > Battery Level Change > Low Zone (Low% - Critical%) > Notify when Unplugged -->
+		<key>emailWhenUnpluggedInLowZone</key>
+		<false/>
+
+		<!-- Event Notifications > Enable Event Notifications > Battery Level Change > Low Zone (Low% - Critical%) > Notify when Charging -->
+		<key>emailWhenChargingInLowZone</key>
+		<false/>
+
+		<!-- Event Notifications > Enable Event Notifications > Battery Level Change > Critical Zone (Critical% - 0%) > Notify when Unplugged -->
+		<key>emailWhenUnpluggedInCriticalZone</key>
+		<false/>
+
+		<!-- Event Notifications > Enable Event Notifications > Battery Level Change > Critical Zone (Critical% - 0%) > Notify when Charging -->
+		<key>emailWhenChargingInCriticalZone</key>
+		<false/>
+
+		<!-- Event Notifications > Enable Event Notifications > Remote Update of Settings -->
+		<key>emailOnRemoteSettingsChange</key>
+		<false/>
+
+		<!-- Event Notifications > Enable Event Notifications > Remote Update of Local Files -->
+		<key>emailOnContentUpdate</key>
+		<false/>
+
+		<!-- Event Notifications > Enable Event Notifications > Accelerometer Motion Detection -->
+		<key>emailOnAccelTrigger</key>
+		<false/>
+
+		<!-- Event Notifications > Enable Event Notifications > Switch between Cellular Data & WiFi -->
+		<key>emailOnChangeNetworkReachabilityStatus</key>
+		<false/>
+
+		<!-- Event Notifications > Send Event Notifications Through
+			 0 = SMTP Email Server;
+			 1 = Zapier Webhook;
+		-->
+		<key>kp_sendEventNotificationsThrough</key>
+		<integer>0</integer>
+
+		<!-- Event Notifications > SMTP Email Server > From Email -->
+		<key>smtpFromEmail</key>
+		<string></string>
+
+		<!-- Event Notifications > SMTP Email Server > To Email -->
+		<key>smtpToEmail</key>
+		<string></string>
+
+		<!-- Event Notifications > SMTP Email Server > SMTP Server -->
+		<key>smtpServer</key>
+		<string></string>
+
+		<!-- Event Notifications > SMTP Email Server > SMTP Ports -->
+		<key>smtpPorts</key>
+		<string>25; 465; 587</string>
+
+		<!-- Event Notifications > SMTP Email Server > Requires Authentication -->
+		<key>smtpRequiresAuth</key>
+		<true/>
+
+		<!-- Event Notifications > SMTP Email Server > User Name -->
+		<key>smtpUserName</key>
+		<string></string>
+
+		<!-- Event Notifications > SMTP Email Server > Enable SSL -->
+		<key>smtpEnableSSL</key>
+		<false/>
+
+		<!-- Event Notifications > Zapier Webhook URL -->
+		<key>kp_zapierDefaultZapURL</key>
+		<string></string>
+
+		<!-- Screen Brightness & Power Management > Brightness Level > Control Active Brightness Level -->
+		<key>kp_isControlBrightnessInKioskEnabled</key>
+		<true/>
+
+		<!-- Screen Brightness & Power Management > Brightness Level -->
+		<key>manualControlOfBrightness</key>
+		<real>1</real>
+
+		<!-- Screen Brightness & Power Management > Night Mode > Enable Night Mode -->
+		<key>sleepSchedullerEnabled</key>
+		<true/>
+
+		<!-- Screen Brightness & Power Management > Night Mode > Schedule Night Mode > Group 1 > Wake -->
+		<key>time_0</key>
+		<string>07:00</string>
+
+		<!-- Screen Brightness & Power Management > Night Mode > Schedule Night Mode > Group 1 > Dim -->
+		<key>time_1</key>
+		<string>20:00</string>
+
+		<!-- Screen Brightness & Power Management > Night Mode > Schedule Night Mode > Group 2 > Wake -->
+		<key>time_2</key>
+		<string></string>
+
+		<!-- Screen Brightness & Power Management > Night Mode > Schedule Night Mode > Group 2 > Dim -->
+		<key>time_3</key>
+		<string></string>
+
+		<!-- Screen Brightness & Power Management > Night Mode > Schedule Night Mode > Group 3 > Wake -->
+		<key>time_4</key>
+		<string></string>
+
+		<!-- Screen Brightness & Power Management > Night Mode > Schedule Night Mode > Group 3 > Dim -->
+		<key>time_5</key>
+		<string></string>
+
+		<!-- Screen Brightness & Power Management > Night Mode > Schedule Night Mode > Group 4 > Wake -->
+		<key>time_6</key>
+		<string></string>
+
+		<!-- Screen Brightness & Power Management > Night Mode > Schedule Night Mode > Group 4 > Dim -->
+		<key>time_7</key>
+		<string></string>
+
+		<!-- Screen Brightness & Power Management > Night Mode > Schedule Night Mode > Group 5 > Wake -->
+		<key>time_8</key>
+		<string></string>
+
+		<!-- Screen Brightness & Power Management > Night Mode > Schedule Night Mode > Group 5 > Dim -->
+		<key>time_9</key>
+		<string></string>
+
+		<!-- Screen Brightness & Power Management > Night Mode > Schedule Night Mode > Group 6 > Wake -->
+		<key>time_10</key>
+		<string></string>
+
+		<!-- Screen Brightness & Power Management > Night Mode > Schedule Night Mode > Group 6 > Dim -->
+		<key>time_11</key>
+		<string></string>
+
+		<!-- Screen Brightness & Power Management > Night Mode > Schedule Night Mode > Group 7 > Wake -->
+		<key>time_12</key>
+		<string></string>
+
+		<!-- Screen Brightness & Power Management > Night Mode > Schedule Night Mode > Group 7 > Dim -->
+		<key>time_13</key>
+		<string></string>
+
+		<!-- Screen Brightness & Power Management > Night Mode > Schedule Night Mode > Group 8 > Wake -->
+		<key>time_14</key>
+		<string></string>
+
+		<!-- Screen Brightness & Power Management > Night Mode > Schedule Night Mode > Group 8 > Dim -->
+		<key>time_15</key>
+		<string></string>
+
+		<!-- Screen Brightness & Power Management > Night Mode > Display Black Background -->
+		<key>kp_nightMode_isDisplayBlackBackgroundEnabled</key>
+		<true/>
+
+		<!-- Screen Brightness & Power Management > Night Mode > Allow Interruption by Touch -->
+		<key>kp_nightMode_isAllowInterruptionByTouchEnabled</key>
+		<true/>
+
+		<!-- Screen Brightness & Power Management > Inactivity > Reduce Screen Brightness
+			 0 = Never;
+			 30 = After 30 seconds of inactivity;
+			 60 = After 1 minute of inactivity;
+			 300 = After 5 minutes of inactivity;
+			 600 = After 10 minutes of inactivity;
+			 1800 = After 30 minutes of inactivity;
+			 3600 = After 60 minutes of inactivity;
+		-->
+		<key>reduceBrightnessTimeInterval</key>
+		<string>0</string>
+
+		<!-- Screen Brightness & Power Management > Inactivity > Apply Reduce Screen Brightness
+			 1.1 = Always;
+			 1 = If battery percentage is less than 100%;
+			 0.9 = If battery percentage is less than 90%;
+			 0.8 = If battery percentage is less than 80%;
+			 0.7 = If battery percentage is less than 70%;
+			 0.6 = If battery percentage is less than 60%;
+			 0.5 = If battery percentage is less than 50%;
+			 0.4 = If battery percentage is less than 40%;
+			 0.3 = If battery percentage is less than 30%;
+			 0.2 = If battery percentage is less than 20%;
+			 0.1 = If battery percentage is less than 10%;
+			 0 = Never;
+		-->
+		<key>kp_applyReduceBrightness</key>
+		<real>0.0</real>
+
+		<!-- Screen Brightness & Power Management > Inactivity > Enable Auto-Lock -->
+		<key>allowAutoLock</key>
+		<false/>
+
+		<!-- Audio Output & Volume > Volume Control -->
+		<key>volumeControl</key>
+		<string></string>
+
+		<!-- Geolocation > Update Location Coordinates Automatically
+			 0 = Never;
+			 1 = On App Launch;
+			 2 = Continuously;
+		-->
+		<key>locationUpdateFrequency</key>
+		<real>2</real>
+
+		<!-- Accelerometer Motion > Accelerometer Sensitivity
+			 0.06 = Very High;
+			 0.1 = High;
+			 0.2 = Medium;
+			 0.4 = Low;
+			 0.6 = Very Low;
+		-->
+		<key>shakeSensibility</key>
+		<real>0.10000000000000001</real>
+
+		<!-- Accelerometer Motion > Motion Detection Reset Period (minutes) -->
+		<key>motionResetPeriod</key>
+		<string>1</string>
+
+		<!-- Show Print Icon -->
+		<key>showPrintIcon</key>
+		<false/>
+
+		<!-- AirPrint > Enable AirPrint -->
+		<key>printEnabled</key>
+		<false/>
+
+		<!-- AirPrint > Print Quality
+			 0 = Standard;
+			 1 = Photo;
+			 2 = Grayscale Standard;
+			 3 = Grayscale Photo;
+		-->
+		<key>airPrint_PrintInfoOutputType</key>
+		<real>0.0</real>
+
+		<!-- AirPrint > Print Orientation
+			 0 = Landscape;
+			 1 = Portrait;
+		-->
+		<key>kp_airPrint_printingOrientation</key>
+		<real>1</real>
+
+		<!-- AirPrint > Standard Dialog Print Mode > Allow Visitor to Set Number of Copies -->
+		<key>kp_airPrint_setNumberOfCopiesOption</key>
+		<false/>
+
+		<!-- Advanced Settings > Browser Engine > Browser Engine
+			 1 = WKWebView (recommended);
+			 0 = UIWebView (legacy support);
+		-->
+		<key>kp_browserEngine</key>
+		<integer>1</integer>
+
+		<!-- Advanced Settings > Browser Engine > App Settings Specific to UIWebView > UIWebView Cookie Acceptance Policy
+			 0 = Never Accept;
+			 1 = Accept From Visited;
+			 2 = Always Accept;
+		-->
+		<key>cookieAcceptPolicy</key>
+		<integer>1</integer>
+
+		<!-- Advanced Settings > Browser Engine > App Settings Specific to UIWebView > Transform Links for Guided Access -->
+		<key>kp_transformLinksForGuidedAccess</key>
+		<true/>
+
+		<!-- Advanced Settings > Content > Enable Web Inspector -->
+		<key>kp_isWebInspectorEnabled</key>
+		<true/>
+
+		<!-- Advanced Settings > Display & Interaction > Allow Text Selection -->
+		<key>textSelection</key>
+		<false/>
+
+		<!-- Advanced Settings > Display & Interaction > Disable Touch Callouts -->
+		<key>_kp_disableDefaultCalloutShownWhenTouchAndHoldTarget_</key>
+		<false/>
+
+		<!-- Advanced Settings > Display & Interaction > Prevent iOS Drag & Drop -->
+		<key>_kp_disable_iOS_DragAndDrop_</key>
+		<false/>
+
+		<!-- Advanced Settings > Display & Interaction > Preload Homepage While Running Screensaver -->
+		<key>kp_preloadHomepageBehindScreensaver</key>
+		<false/>
+
+		<!-- Advanced Settings > Display & Interaction > Allow Automatic Focus -->
+		<key>kp_showKeyboardAutomaticallyOnFocusEvent</key>
+		<false/>
+
+		<!-- Advanced Settings > Display & Interaction > Allow Fullscreen API -->
+		<key>kp_allowFullscreenAPI</key>
+		<true/>
+
+		<!-- Advanced Settings > Display & Interaction > Reset UIScrollView Offset -->
+		<key>kp_scrollsContentBehavior_isScrollResetAfterKeyboardShownEnabled</key>
+		<false/>
+
+		<!-- Advanced Settings > Display & Interaction > UIScrollView Content Inset Adjustment Behavior
+			 0 = Never;
+			 1 = Automatic;
+			 2 = Scrollable Axes;
+			 3 = Always;
+		-->
+		<key>kp_scrollsContentBehavior_contentInsetAdjustmentBehavior</key>
+		<integer>1</integer>
+
+		<!-- Advanced Settings > Memory & Privacy > Ensure Cookies Are Loaded on Homepage -->
+		<key>kp_useFalseHomepage</key>
+		<false/>
+
+		<!-- Advanced Settings > Memory & Privacy > Share Crash Logs with Developer
+			 0 = Automatically;
+			 1 = Do not share;
+			 2 = Request permission on launch;
+		-->
+		<key>kp_collectCrashLogsForAnalysisOption</key>
+		<integer>0</integer>
+
+		<!-- Advanced Settings > Visitor Management > Allow Universal Links to Open Other Apps -->
+		<key>kp_allowUniversalLinksToOpenOtherApps</key>
+		<true/>
+
+		<!-- Advanced Settings > Visitor Management > Screen Asynchronous Requests with Allowed & Restricted Domains -->
+		<key>kp_allowRestrictAsynchronousURLRequests</key>
+		<true/>
+
+		<!-- Advanced Settings > Site Customization > Insert Homepage URL Parameters as JavaScript Variables
+			 0 = On Homepage Only;
+			 1 = Always;
+			 2 = Never;
+		-->
+		<key>kp_insertHomepageURLParametersAsJavaScriptVariables</key>
+		<integer>2</integer>
+
+		<!-- Advanced Settings > Site Customization > Trigger Change Event after Autofill -->
+		<key>triggerOnChangeEventForAutofilling</key>
+		<true/>
+
+		<!-- Advanced Settings > Remote Management > Settings Export Options > Remote Settings Control > Export Settings in Remote Settings Control Legacy Format -->
+		<key>kp_exportRemoteSettingsXMLInLegacyFormat</key>
+		<false/>
+
+		<!-- Advanced Settings > Remote Management > Settings Export Options > Managed App Configuraton > Export Settings as Managed App Configuration PLIST File -->
+		<key>kp_exportSettings_exportAsManagedAppConfigurationPLISTFile</key>
+		<false/>
+
+		<!-- Advanced Settings > Remote Management > Settings Export Options > Comment Management > Include Commented Header Information -->
+		<key>kp_exportSettings_includeCommentedHeaderInformation</key>
+		<true/>
+
+		<!-- Advanced Settings > Remote Management > Settings Export Options > Comment Management > Include Commented Settings Names -->
+		<key>kp_exportSettings_includeCommentedSettingsNames</key>
+		<true/>
+
+		<!-- Advanced Settings > Remote Management > Settings Export Options > Size Management > Minimize File Size -->
+		<key>kp_exportSettings_minimizeFileSize</key>
+		<false/>
+
+		<!-- Advanced Settings > Remote Management > Remote Management Server > Track Asynchronous Requests in Session Data When Possible -->
+		<key>kp_trackAsynchronousRequestsWhenPossible</key>
+		<true/>
+
+		<!-- Advanced Settings > Remote Management > Remote Management Server > Server Version -->
+		<key>KWC_ServerMinRequiredVersion</key>
+		<string>040701</string>
+
+		<!-- Advanced Settings > Remote Management > Remote Management Server > Request Timeout Interval [60..3900] (seconds) -->
+		<key>kwc_request_timeout</key>
+		<string>300</string>
+
+		<!-- Advanced Settings > Internet Access & Error Handling > Monitor Internet Access While Idle -->
+		<key>showConnectionProblemPage</key>
+		<false/>
+
+		<!-- Advanced Settings > Internet Access & Error Handling > Internet Connection Timeout Interval [0.1..60] (seconds) -->
+		<key>kp_internetConnection_fromOffline_startCheckTimeoutInterval</key>
+		<string>0.5</string>
+
+		<!-- Advanced Settings > Internet Access & Error Handling > Alternate Homepage for Offline Use -->
+		<key>customConnectionProblemPage</key>
+		<string></string>
+
+		<!-- Advanced Settings > Internet Access & Error Handling > Page Loading Time Limit (seconds) -->
+		<key>pageLoadTime</key>
+		<string>120</string>
+
+		<!-- Advanced Settings > Internet Access & Error Handling > Allow Exceptions to HTTPS:// Security Protocols
+			 0 = Show Prompt;
+			 1 = Automatically (recommended only in restricted environments where all possible exceptions have been reviewed);
+			 2 = Never (any page with certificate errors will not load);
+		-->
+		<key>kp_promptToAllowHTTPSSecurityExceptionsInWKWebView</key>
+		<integer>0</integer>
+
+		<!-- Advanced Settings > Internet Access & Error Handling > Allow Connections over Deprecated TLS
+			 0 = Show Prompt;
+			 1 = Automatically;
+			 2 = Never;
+		-->
+		<key>kp_deprecatedTLSPolicyInWKWebView</key>
+		<integer>0</integer>
+
+		<!-- Advanced Settings > Troubleshooting > Log App Events -->
+		<key>kp_logMode</key>
+		<false/>
+
+		<!-- Advanced Settings > Troubleshooting > Log Remote Management Server Events -->
+		<key>KWC_LogClientEvents</key>
+		<false/>
+
+		<!-- Advanced Settings > Troubleshooting > Log Remote Management Server Communications -->
+		<key>KWC_LogOutcomingXMLDocuments</key>
+		<false/>
+
+		<!-- Remote Update Only -->
+		<key>kp_authChallenge_performDefaultHandling_if_browser_not_loading_content</key>
+		<false/>
+
+		<!-- Remote Update Only > Allowed Link Path Depth from Homepage -->
+		<key>linksDepth</key>
+		<string></string>
+
+		<!-- Remote Update Only > Use Native Browser PDF Viewer -->
+		<key>kp_useNativeBrowserPDFViewer</key>
+		<false/>
+
+		<!-- Remote Update Only > Use Memory Saving Mode For PDF Viewer -->
+		<key>kp_memorySavingMode4PDFViewer</key>
+		<true/>
+
+		<!-- Remote Update Only > Request Timeout Interval [60..3900] (seconds) -->
+		<key>kp_zapierRequestTimeout</key>
+		<string>60</string>
+
+		<!-- Remote Update Only > Auto Retry Delay [0..3900] (seconds) -->
+		<key>kp_zapierAutoRetryDelay</key>
+		<string>10</string>
+
+		<!-- Remote Update Only
+			 0 = None;
+			 1 = LongEdge;
+			 2 = ShortEdge;
+		-->
+		<key>kp_airPrint_duplexMode</key>
+		<integer>1</integer>
+
+		<!-- Remote Update Only > Incompatibility Detected Warning Severity
+			 0 = None;
+			 4 = Info;
+			 2 = Warning;
+			 1 = Error;
+		-->
+		<key>logServerVersionIncompatibilityDetected</key>
+		<integer>0</integer>
+
+		<!-- Remote Update Only > Enable Drop-down Menu Fix for iOS 8 -->
+		<key>kp_enableDropdownsForiOS8</key>
+		<true/>
+
+		<!-- Remote Update Only > UIWebView Removal Warning Allowed -->
+		<key>_kp_isUIWebViewRemovalWarningAllowed</key>
+		<true/>
+
+		<!-- Remote Update Only > Log All WebKit Requests -->
+		<key>kp_logAllWebKitRequests</key>
+		<false/>
+
+		<!-- Remote Update Only -->
+		<key>kp_disable_UIMenuAutoFill</key>
+		<true/>
+
+		<!-- Remote Update Only > Injection Delay Interval (seconds) -->
+		<key>kp_autofilling_injectionDelayInterval</key>
+		<string>0</string>
+
+		<!-- Remote Update Only -->
+		<key>kp_warmingUpDelay</key>
+		<string>0</string>
+
+		<!-- Remote Update Only > Maximum Event Lifetime (seconds) -->
+		<key>kp_failedRequestLog_maximumEventLifetime</key>
+		<string>2592000</string>
+
+		<!-- Remote Update Only > Enable -->
+		<key>kp_automatedRelaunchLoopSequenceEnabled</key>
+		<false/>
+
+		<!-- Remote Update Only > Max Number Of Restore Connection Tries -->
+		<key>kp_automatedRelaunchLoopSequence_maxNumberOfRestoreConnectionTries</key>
+		<string>1</string>
+
+		<!-- Remote Update Only > Reboot Action Delay Interval -->
+		<key>kp_automatedRelaunchLoopSequence_rebootActionDelayInterval</key>
+		<string>0</string>
+
+		<!-- Remote Update Only > Accelerometer Updates Frequency Hz -->
+		<key>kp_accelerometerUpdatesFrequencyHz</key>
+		<string>20</string>
+
+		<!-- Remote Update Only > Highpass Filter Cutoff Frequency -->
+		<key>kp_highpassFilterCutoffFrequency</key>
+		<string>0.5</string>
+
+		<!-- Remote Update Only > Lowpass FilterCutoff Frequency -->
+		<key>kp_lowpassFilterCutoffFrequency</key>
+		<string>1.0</string>
+
+		<!-- Remote Update Only > Interval Of Checking Motion In Seconds -->
+		<key>kp_intervalOfCheckingMotionInSeconds</key>
+		<string>3</string>
+
+		<!-- Remote Update Only -->
+		<key>kp_placePresentationViewInsideSafeArea</key>
+		<true/>
+
+		<!-- Remote Update Only > Check Timeout Interval From Online -->
+		<key>kp_internetConnection_fromOnline_checkTimeoutInterval</key>
+		<string>300</string>
+
+		<!-- Remote Update Only > Check Timeout Interval From Default Offline Page -->
+		<key>kp_internetConnection_fromDefaultOfflinePage_checkTimeoutInterval</key>
+		<string>30</string>
+
+		<!-- Remote Update Only > Timeout Interval For Remote Requests -->
+		<key>kp_internetConnection_timeoutIntervalForPollRequest</key>
+		<string>30</string>
+
+		<!-- Remote Update Only > Update Interval (seconds) -->
+		<key>_kp_locationTracker_updateInterval</key>
+		<string>60</string>
+
+		<!-- Remote Update Only -->
+		<key>kp_reloadBrowserAfterSleepIfPageTitleUndefined</key>
+		<false/>
+
+		<!-- Remote Update Only > Delay For Simulating Did Finish Navigation Event -->
+		<key>kp_trackAsynchronousRequests_delayForSimulatingDidFinishNavigationEvent</key>
+		<string>0.5</string>
+
+		<!-- Remote Update Only > Behavior Type
+			 0 = Start Simulating Regardless Of Loading State;
+			 1 = Start Simulating If Loading;
+			 2 = Start Simulating If Not Loading;
+		-->
+		<key>kp_trackAsynchronousRequests_behaviorType</key>
+		<integer>0</integer>
+
+		<!-- Remote Update Only > Recovery Browser After Sleep -->
+		<key>kp_reloadBrowserAfterSleep</key>
+		<false/>
+
+		<!-- Remote Update Only > Delay Interval Between Start And Stop Video Capturing (seconds) -->
+		<key>kp_photoVideoAPI_delayIntervalBetweenStartAndStopVideoCapturing</key>
+		<string>1.0</string>
+
+		<!-- Remote Update Only > Totally Disable -->
+		<key>kp_monitorInternetAccessWhenIdle_totallyDisabled</key>
+		<false/>
+
+	</dict>
+</dict>
+</plist>
