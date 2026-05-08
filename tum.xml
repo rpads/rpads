@@ -567,19 +567,19 @@
 
 		<!-- Refresh Homepage (minutes) -->
 		<key>refreshTime</key>
-		<string>1</string>
+		<string>10</string>
 
 		<!-- Clear Cache on Content Refresh -->
 		<key>clearCache</key>
-		<false/>
+		<true/>
 
 		<!-- Clear Local Storage on Content Refresh -->
 		<key>kp_clearLocalStorageOnHomepage</key>
-		<false/>
+		<true/>
 
 		<!-- Clear Cookies & Session Storage on Content Refresh -->
 		<key>clearCookies</key>
-		<false/>
+		<true/>
 
 		<!-- Clear Data on Relaunch & Remote Update -->
 		<key>kp_clearAppDataOnRelaunch</key>
