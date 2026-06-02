@@ -567,7 +567,7 @@
 
 		<!-- Refresh Homepage (minutes) -->
 		<key>refreshTime</key>
-		<string>10</string>
+		<string>3</string>
 
 		<!-- Clear Cache on Content Refresh -->
 		<key>clearCache</key>
