@@ -44,7 +44,7 @@
 
 		<!-- Homepage -->
 		<key>homePage</key>
-		<string>https://www.raiffeisen.ru/devices/cash/?office=cc502cbf-ed8a-44b4-98cb-f7890675b74a</string>
+		<string>https://www.raiffeisen.ru/devices/cash/?office=742&hide_rate=yes</string>
 
 		<!-- Screensaver > Enable Screensaver -->
 		<key>sv_screenVideoEnabled</key>
