@@ -44,7 +44,7 @@
 
 		<!-- Homepage -->
 		<key>homePage</key>
-		<string>https://www.raiffeisen.ru/devices/cash/?office=aba41bc8-f40a-403c-a01a-86a69ed882ee</string>
+		<string>https://www.raiffeisen.ru/devices/cash/?office=746</string>
 
 		<!-- Screensaver > Enable Screensaver -->
 		<key>sv_screenVideoEnabled</key>
@@ -567,7 +567,7 @@
 
 		<!-- Refresh Homepage (minutes) -->
 		<key>refreshTime</key>
-		<string>10</string>
+		<string>1</string>
 
 		<!-- Clear Cache on Content Refresh -->
 		<key>clearCache</key>
