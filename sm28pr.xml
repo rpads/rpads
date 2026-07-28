@@ -1108,7 +1108,7 @@
 
 		<!-- Remote Settings Control > Settings XML File Location -->
 		<key>externalSettingsFile</key>
-		<string>https://raw.githubusercontent.com/rpads/rpads/refs/heads/main/sm28.xml</string>
+		<string>https://raw.githubusercontent.com/rpads/rpads/refs/heads/main/sm28pr.xml</string>
 
 		<!-- Remote Settings Control > Update Period (minutes) -->
 		<key>localSettingsUpdatePeriod</key>
